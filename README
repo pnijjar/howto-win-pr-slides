@@ -28,4 +28,11 @@ fonts-larabie-uncommon: /usr/share/fonts/truetype/larabie/greenfuz.ttf
 (Yes, the font is non-free, but it is offered pretty liberally.) 
 
 
+### Graphs 
 
+The bar graphs are created using matplotlib and a python script. They
+are not in these sources, but you should (eventually) be able to find
+them in the same place where you found these slide sources (maybe
+http://github.com/pnijjar ?) 
+
+- Paul "Worthless" Nijjar, 2015-11-11
