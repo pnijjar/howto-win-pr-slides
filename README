@@ -1,0 +1,31 @@
+Requirements
+------------
+
+This is easiest to compile on a Linux system, but you can probably
+make it work with Windows. 
+
+On Debian, you want the following packages installed: 
+biblatex biber beamer texlive texlive-fonts-extra
+
+Basic compilation: 
+
+cd tmp
+pdflatex ../2015-10-28-howto-win-pr.tex
+biber 2015-10-18-howto-win-pr
+pdflatex ../2015-10-28-howto-win-pr.tex
+pdflatex ../2015-10-28-howto-win-pr.tex
+
+
+### Spooky Font
+
+The spooky font is "Green Fuz" from Larabie fonts. You can run the 
+script in addfont/ to register it if you have the "greenfuz.ttf" file
+in that folder. In Debian, you can find this font in the non-free
+repository: 
+
+fonts-larabie-uncommon: /usr/share/fonts/truetype/larabie/greenfuz.ttf
+
+(Yes, the font is non-free, but it is offered pretty liberally.) 
+
+
+
